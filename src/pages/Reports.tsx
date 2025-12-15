@@ -54,14 +54,14 @@ const Reports = () => {
           <div className="flex gap-2">
             <GlassButton
               variant="secondary"
-              icon={<Download className="w-4 h-4" />}
+              leftIcon={<Download className="w-4 h-4" />}
               onClick={() => handleExport('pdf')}
             >
               Export PDF
             </GlassButton>
             <GlassButton
               variant="secondary"
-              icon={<Download className="w-4 h-4" />}
+              leftIcon={<Download className="w-4 h-4" />}
               onClick={() => handleExport('csv')}
             >
               Export CSV

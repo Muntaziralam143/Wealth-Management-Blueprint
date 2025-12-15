@@ -141,14 +141,14 @@ const Simulations = () => {
                 className="flex-1"
                 onClick={handleRunSimulation}
                 isLoading={isRunning}
-                icon={<Play className="w-4 h-4" />}
+                leftIcon={<Play className="w-4 h-4" />}
               >
                 Run
               </GlassButton>
               <GlassButton
                 variant="secondary"
                 onClick={handleReset}
-                icon={<RotateCcw className="w-4 h-4" />}
+                leftIcon={<RotateCcw className="w-4 h-4" />}
               >
                 Reset
               </GlassButton>

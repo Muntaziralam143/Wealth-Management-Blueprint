@@ -147,7 +147,7 @@ const Profile = () => {
                   <GlassButton
                     onClick={handleSave}
                     isLoading={isSaving}
-                    icon={<Save className="w-4 h-4" />}
+                    leftIcon={<Save className="w-4 h-4" />}
                   >
                     Save Changes
                   </GlassButton>
@@ -220,7 +220,7 @@ const Profile = () => {
                   <GlassButton
                     onClick={handleSave}
                     isLoading={isSaving}
-                    icon={<Save className="w-4 h-4" />}
+                    leftIcon={<Save className="w-4 h-4" />}
                   >
                     Save Preferences
                   </GlassButton>
@@ -268,7 +268,7 @@ const Profile = () => {
                   <GlassButton
                     onClick={handleSave}
                     isLoading={isSaving}
-                    icon={<Save className="w-4 h-4" />}
+                    leftIcon={<Save className="w-4 h-4" />}
                   >
                     Save Preferences
                   </GlassButton>

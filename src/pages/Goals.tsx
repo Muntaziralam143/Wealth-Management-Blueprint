@@ -78,7 +78,7 @@ const Goals = () => {
           </div>
           <Dialog open={isAddingGoal} onOpenChange={setIsAddingGoal}>
             <DialogTrigger asChild>
-              <GlassButton icon={<Plus className="w-4 h-4" />}>
+              <GlassButton leftIcon={<Plus className="w-4 h-4" />}>
                 Add Goal
               </GlassButton>
             </DialogTrigger>

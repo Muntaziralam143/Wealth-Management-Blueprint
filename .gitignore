@@ -1,0 +1,138 @@
+# -------------------------------
+# Global Ignores (for both FE + BE)
+# -------------------------------
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Byte-compiled
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------------------
+# FRONTEND (React + Tailwind)
+# --------------------------------
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.eslintcache
+
+# Local production build files
+*.local
+
+# Coverage
+frontend/coverage/
+
+# --------------------------------
+# BACKEND (FastAPI + Celery)
+# --------------------------------
+
+# Python cache repeated for BE
+backend/__pycache__/
+backend/**/*.py[cod]
+
+# Compiled Python files
+backend/*.egg-info/
+*.egg-info/
+
+# Virtual environment for backend
+backend/.venv/
+backend/venv/
+
+# Local SQLite DB (if any)
+*.sqlite3
+*.db
+
+# Alembic migration cache
+backend/migrations/versions/__pycache__/
+
+# Celery Beat Schedule
+celerybeat-schedule
+celerybeat.pid
+
+# --------------------------------
+# DATABASE & DATA
+# --------------------------------
+
+# PostgreSQL local data folder
+postgres-data/
+pgdata/
+
+# Redis dump
+dump.rdb
+
+# --------------------------------
+# DOCKER
+# --------------------------------
+
+# Docker build cache
+**/.dockerignore
+
+# Ignore all Docker internal folders
+docker-volumes/
+docker-data/
+
+# --------------------------------
+# EXPORTS / REPORTS
+# --------------------------------
+
+# Generated reports
+*.pdf
+*.csv
+exports/
+temp_reports/
+
+# --------------------------------
+# MISC
+# --------------------------------
+
+# Cache folders
+.cache/
+tmp/
+temp/
+
+# Compiled assets
+*.out
+*.exe
+*.dll
+
+# Node lock files (optional)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

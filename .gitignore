@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -------------------------------
 # Global Ignores (for both FE + BE)
 # -------------------------------
@@ -15,11 +16,16 @@ Thumbs.db
 
 # Logs
 logs/
+=======
+# Logs
+logs
+>>>>>>> b2c0c63b9adc503917b3287e58c114f4d3a5323f
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+<<<<<<< HEAD
 
 # Python cache
 __pycache__/
@@ -136,3 +142,22 @@ temp/
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
+=======
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> b2c0c63b9adc503917b3287e58c114f4d3a5323f

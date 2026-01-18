@@ -31,6 +31,35 @@ This project is built to demonstrate **modern web development practices** using 
 ### Database
 - 🗄️ PostgreSQL
 
+---
 
+## ⚙️ Installation & Setup
 
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/springboardmentor997-create/Wealth-Management-Blueprint.git
+cd Wealth-Management-Blueprint
+```
+
+## 2️⃣ Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+3️⃣ Backend Setup
+cd backend
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+## 🔐 Environment Variables
+Create a .env file in the backend directory:
+DATABASE_URL=postgresql://username:password@localhost:5432/wealth_db
+SECRET_KEY=your_secret_key
+
+## 👨‍💻 Author
+
+Muntazir Alam
+B.Tech Student | Aspiring Data Scientist & Full-Stack Developer
 

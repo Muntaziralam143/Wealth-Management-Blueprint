@@ -28,9 +28,11 @@ class Settings(BaseSettings):
     # =========================
     # Allow frontend from Vercel + local dev
     CORS_ORIGINS: list[str] = [
-        "http://localhost:5173",
-        "https://wealth-management-blueprint.vercel.app",
-    ]
+    "http://localhost:5173",
+    "https://wealth-management-blueprint.vercel.app",
+    "https://wealth-management-blueprint-rbdo11yq-muntaziralam143s-projects.vercel.app"
+]
+
 
     # Frontend base URL (used for emails, reset links, redirects)
     FRONTEND_URL: str = "https://wealth-management-blueprint.vercel.app"

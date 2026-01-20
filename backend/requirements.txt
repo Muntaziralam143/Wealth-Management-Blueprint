@@ -8,3 +8,10 @@ passlib[bcrypt]
 python-multipart
 celery
 redis
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-jose
+passlib[bcrypt]
